@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
 
 
-DATABASE_URL = "postgresql+psycopg://postgres:password@localhost:5432/db1"
+DATABASE_URL = "postgresql+psycopg://postgres:password@localhost:5432/db2"
 
 engine = create_async_engine(DATABASE_URL, echo=True, future=True)
 
